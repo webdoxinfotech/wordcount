@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<table border = "1" cellpadding = "0" cellspacing = "20">
+	<tr>
+		<th>WORD</th>
+		<th>How many times</th>
+	</tr>
+{% for key,value in list1 %}
+<tr>
+	<td>{{ key }}</td>
+	<td>{{ value }}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
